@@ -1,0 +1,9 @@
+{
+  "name": "termux-api-mcp",
+  "version": "1.0.0",
+  "description": "Crucible Forge Hardware Bridge via Termux API",
+  "main": "index.js",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
