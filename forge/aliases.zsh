@@ -26,3 +26,4 @@ alias cd-crucible="cd /data/data/com.termux/files/home/crucible"
 alias cd-forge="cd /data/data/com.termux/files/home/crucible/forge"
 
 echo "⚒️  Crucible Forge Aliases Active."
+alias forge="/data/data/com.termux/files/home/crucible/src/forge-cli.py"
