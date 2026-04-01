@@ -6,6 +6,14 @@
     },
     "gemini-docs": {
       "command": "gemini-mcp-docs"
+    },
+    "crucible-hardware": {
+      "command": "node",
+      "args": ["/data/data/com.termux/files/home/crucible/mcp/termux-api/index.js"]
+    },
+    "crucible-local-db": {
+      "command": "node",
+      "args": ["/data/data/com.termux/files/home/crucible/mcp/local-db/index.js"]
     }
   }
 }
