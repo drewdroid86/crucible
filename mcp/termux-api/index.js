@@ -1,10 +1,10 @@
-const { Server } = require("@modelcontextprotocol/sdk/server");
-const { StdioServerTransport } = require("@modelcontextprotocol/sdk/server/stdio");
-const { 
+import { Server } from "@modelcontextprotocol/sdk/server/index.js";
+import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
+import { 
   CallToolRequestSchema, 
   ListToolsRequestSchema 
-} = require("@modelcontextprotocol/sdk/types");
-const { execSync } = require("child_process");
+} from "@modelcontextprotocol/sdk/types.js";
+import { execSync } from "child_process";
 
 const server = new Server(
   {
