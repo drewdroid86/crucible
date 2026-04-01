@@ -1,0 +1,6 @@
+{
+  "agent": "Gemini CLI",
+  "version": "0.35.3",
+  "mode": "orchestrator",
+  "capabilities": ["mcp", "shell", "git"]
+}
