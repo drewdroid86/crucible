@@ -64,10 +64,10 @@ We are just getting started. Crucible Forge is evolving into the ultimate portab
 
 - [ ] **Claude Code Integration**: Adding support for Anthropic's agentic tools.
 - [ ] **TurboQuant Local Inference**: Optimizing 4-bit and 8-bit quantization for the Tensor G4.
-- [ ] **Custom MCP Servers**:
-    - `termux-api`: Control phone hardware (camera, GPS, sensors) via agent.
-    - `local-db`: Direct integration with local SQLite/better-sqlite3.
-- [ ] **Mobile-First CI/CD**: Fully automated deployment pipelines triggered from the phone.
+- [x] **Custom MCP Servers**:
+    - `termux-api`: ✅ Control phone hardware (camera, GPS, sensors) via agent.
+    - `local-db`: ✅ Direct integration with local SQLite/better-sqlite3.
+- [x] **Mobile-First CI/CD**: ✅ Fully automated deployment pipelines triggered from the phone.
 
 ---
 
